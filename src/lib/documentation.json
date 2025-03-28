@@ -36,6 +36,41 @@
                 "title": "Warna",
                 "slug": "warna",
                 "contents": [
+                    {
+                        "type": "color-blocks",
+                        "items": [
+                            {
+                                "label": "Merah Primer",
+                                "blockColor": "rgb(237, 28, 36)",
+                                "textColor": "#ffffff"
+                            },
+                            {
+                                "label": "Merah Sekunder",
+                                "blockColor": "rgb(176, 17, 22)",
+                                "textColor": "#ffffff"
+                            },
+                            {
+                                "label": "Hitam",
+                                "blockColor": "rgb(0, 0, 0)",
+                                "textColor": "#ffffff"
+                            },
+                            {
+                                "label": "Abu Primer",
+                                "blockColor": "rgb(88, 89, 91)",
+                                "textColor": "#ffffff"
+                            },
+                            {
+                                "label": "Abu Sekunder",
+                                "blockColor": "rgb(128, 130, 133)",
+                                "textColor": "#000000"
+                            },
+                            {
+                                "label": "Abu Tersier",
+                                "blockColor": "rgb(167, 169, 172)",
+                                "textColor": "#000000"
+                            }
+                        ]
+                    },
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sodales augue lorem, ut facilisis lorem finibus ut. Nunc mattis dui at pharetra condimentum. Phasellus venenatis id augue quis laoreet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sit amet quam at tellus tristique hendrerit vitae et augue. Praesent eget dui ornare, accumsan augue sed, lacinia erat. Maecenas sit amet odio mi."
                 ]
             },
