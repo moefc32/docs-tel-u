@@ -1,8 +1,0 @@
-import{t as o,h as m,a as s,s as h}from"../chunks/Bol9LUmm.js";import{i as g}from"../chunks/11qMpu-4.js";import{p as u,t as i,a as f,$ as y,c as n,r,n as v}from"../chunks/B1iluEif.js";import{s as x}from"../chunks/5t63bPOh.js";var b=o('<meta property="og:title">'),k=o(`<div class="flex flex-1 flex-col gap-3"><h1 class="my-3 pb-3 text-5xl border-b-[1px] border-gray-700"> </h1> <p><span class="inline-flex gap-2"><a href="https://opensource.org/license/mit" target="_blank"><img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" class="h-[24px]"></a> <a href="https://pnpm.io/" target="_blank"><img src="https://img.shields.io/badge/Package-PNPM-orange?style=flat-square" class="h-[24px]"></a> <img src="https://img.shields.io/badge/Module-ECMAScript-yellow?style=flat-square" class="h-[24px]"></span></p> <p>Simpledocs is a minimalistic and efficient documentation site designed
-        for designers, developers, and teams who need a quick and organized way
-        to present their documentation. It offers a clean and responsive layout
-        with essential features like a navigation sidebar and search
-        functionality. Built with simplicity in mind, this project ensures that
-        users can focus on writing content without dealing with complex
-        configurations. Its lightweight nature makes it easy to deploy on the
-        GitHub Pages.</p></div>`);function G(l,p){u(p,!1),g();var e=k();m(c=>{var a=b();i(()=>{y.title="Telkom University Brand Guidelines",x(a,"content","Telkom University Brand Guidelines")}),s(c,a)});var t=n(e),d=n(t,!0);r(t),v(4),r(e),i(()=>h(d,"Telkom University Brand Guidelines")),s(l,e),f()}export{G as component};
