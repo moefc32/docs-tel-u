@@ -10,26 +10,6 @@
         {import.meta.env.VITE_APP_NAME}
     </h1>
     <p>
-        <span class="inline-flex gap-2">
-            <a href="https://opensource.org/license/mit" target="_blank">
-                <img
-                    src="https://img.shields.io/badge/License-MIT-green?style=flat-square"
-                    class="h-[24px]"
-                />
-            </a>
-            <a href="https://pnpm.io/" target="_blank">
-                <img
-                    src="https://img.shields.io/badge/Package-PNPM-orange?style=flat-square"
-                    class="h-[24px]"
-                />
-            </a>
-            <img
-                src="https://img.shields.io/badge/Module-ECMAScript-yellow?style=flat-square"
-                class="h-[24px]"
-            />
-        </span>
-    </p>
-    <p>
         Simpledocs is a minimalistic and efficient documentation site designed
         for designers, developers, and teams who need a quick and organized way
         to present their documentation. It offers a clean and responsive layout
