@@ -1,4 +1,4 @@
-import{t as r,h as c,a,s as u}from"../chunks/Bol9LUmm.js";import{i as f}from"../chunks/11qMpu-4.js";import{p as h,t as s,a as v,$ as g,c as n,r as o,n as y}from"../chunks/B1iluEif.js";import{s as x}from"../chunks/B4EHLolH.js";var w=r('<meta property="og:title">'),b=r(`<div class="flex flex-1 flex-col gap-3"><h1 class="my-3 pb-3 text-5xl border-b-[1px] border-gray-700"> </h1> <p>Simpledocs is a minimalistic and efficient documentation site designed
+import{t as r,h as c,a,s as u}from"../chunks/Bol9LUmm.js";import{i as f}from"../chunks/11qMpu-4.js";import{p as h,t as s,a as v,$ as g,c as n,r as o,n as y}from"../chunks/B1iluEif.js";import{s as x}from"../chunks/BrogrN2b.js";var w=r('<meta property="og:title">'),b=r(`<div class="flex flex-1 flex-col gap-3"><h1 class="my-3 pb-3 text-5xl border-b-[1px] border-gray-700"> </h1> <p>Simpledocs is a minimalistic and efficient documentation site designed
         for designers, developers, and teams who need a quick and organized way
         to present their documentation. It offers a clean and responsive layout
         with essential features like a navigation sidebar and search
