@@ -29,7 +29,55 @@
                 "title": "Logo Universitas",
                 "slug": "logo-universitas",
                 "contents": [
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sodales augue lorem, ut facilisis lorem finibus ut. Nunc mattis dui at pharetra condimentum. Phasellus venenatis id augue quis laoreet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sit amet quam at tellus tristique hendrerit vitae et augue. Praesent eget dui ornare, accumsan augue sed, lacinia erat. Maecenas sit amet odio mi."
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sodales augue lorem, ut facilisis lorem finibus ut. Nunc mattis dui at pharetra condimentum. Phasellus venenatis id augue quis laoreet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sit amet quam at tellus tristique hendrerit vitae et augue. Praesent eget dui ornare, accumsan augue sed, lacinia erat. Maecenas sit amet odio mi.",
+                    {
+                        "type": "section-title",
+                        "value": "Konfigurasi Utama"
+                    },
+                    {
+                        "type": "image",
+                        "title": "Logo primer utama Tel-U",
+                        "target": "/docs/logo/tel-u/primer-utama.png",
+                        "background": "#ffffff",
+                        "width": "600px"
+                    },
+                    {
+                        "type": "image",
+                        "title": "Logo primer vertikal Tel-U",
+                        "target": "/docs/logo/tel-u/primer-vertikal.png",
+                        "background": "#ffffff",
+                        "width": "300px"
+                    },
+                    {
+                        "type": "image",
+                        "title": "Logo primer horizontal 1 Tel-U",
+                        "target": "/docs/logo/tel-u/primer-horizontal-1.png",
+                        "background": "#ffffff",
+                        "width": "600px"
+                    },
+                    {
+                        "type": "image",
+                        "title": "Logo primer horizontal 2 Tel-U",
+                        "target": "/docs/logo/tel-u/primer-horizontal-2.png",
+                        "background": "#ffffff",
+                        "width": "450px"
+                    },
+                    {
+                        "type": "section-title",
+                        "value": "Konfigurasi Formal dan Legal"
+                    },
+                    {
+                        "type": "section-title",
+                        "value": "Konfigurasi Latar Abu-Abu"
+                    },
+                    {
+                        "type": "section-title",
+                        "value": "Konfigurasi Latar Hitam"
+                    },
+                    {
+                        "type": "section-title",
+                        "value": "Konfigurasi Sekunder"
+                    }
                 ]
             },
             {
@@ -50,11 +98,6 @@
                                 "textColor": "#ffffff"
                             },
                             {
-                                "label": "Hitam",
-                                "blockColor": "rgb(0, 0, 0)",
-                                "textColor": "#ffffff"
-                            },
-                            {
                                 "label": "Abu Primer",
                                 "blockColor": "rgb(88, 89, 91)",
                                 "textColor": "#ffffff"
@@ -62,7 +105,7 @@
                             {
                                 "label": "Abu Sekunder",
                                 "blockColor": "rgb(128, 130, 133)",
-                                "textColor": "#000000"
+                                "textColor": "#ffffff"
                             },
                             {
                                 "label": "Abu Tersier",
@@ -86,7 +129,7 @@
                     {
                         "type": "image",
                         "title": "Typeface Calibri",
-                        "target": "/docs/calibri.svg",
+                        "target": "/docs/calibri.png",
                         "background": "#ffffff"
                     },
                     {
