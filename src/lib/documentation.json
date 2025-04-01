@@ -129,7 +129,7 @@
                     {
                         "type": "image",
                         "title": "Typeface Calibri",
-                        "target": "/docs/calibri.png",
+                        "target": "/docs/calibri.svg",
                         "background": "#ffffff"
                     },
                     {
