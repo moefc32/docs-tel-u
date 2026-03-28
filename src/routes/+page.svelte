@@ -6,7 +6,7 @@
 <!-- svelte-ignore a11y_consider_explicit_label -->
 <!-- svelte-ignore a11y_missing_attribute -->
 <div class="flex flex-1 flex-col gap-3">
-    <h1 class="my-3 pb-3 text-5xl border-b-[1px] border-gray-700">
+    <h1 class="my-3 pb-3 text-5xl border-b border-gray-700">
         {import.meta.env.VITE_APP_NAME}
     </h1>
     <p>
