@@ -5,21 +5,21 @@
 	<meta charset="utf-8" />
 	<link rel="icon" href="./favicon.svg" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link href="./_app/immutable/entry/start.Dt8OR5sR.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/B8lxc6T0.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/C0TeqGVL.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/CEblt3bw.js" rel="modulepreload">
-		<link href="./_app/immutable/entry/app.Crs0ID-P.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/M9uyuK_Z.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/LSYeQvCu.js" rel="modulepreload">
-		<link href="./_app/immutable/nodes/0.BmS7-zKp.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/DLjWQ8-c.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/C9f6b2EL.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/c4mrur3H.js" rel="modulepreload">
-		<link href="./_app/immutable/nodes/3.Cj3XcV52.js" rel="modulepreload">
+	<link href="./_app/immutable/entry/start.D4TxXLJn.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/D7jyce0E.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/Bg69rYhj.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/CrdA7mKD.js" rel="modulepreload">
+		<link href="./_app/immutable/entry/app.CLOLx57X.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/Dp1pzeXC.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BZcIB6wP.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/C7yTT3uS.js" rel="modulepreload">
+		<link href="./_app/immutable/nodes/0.CdelnBMt.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/D2ANIPUw.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/DfguXvj3.js" rel="modulepreload">
+		<link href="./_app/immutable/nodes/3.B2HmGHWo.js" rel="modulepreload">
 		<!--12qhfyh--><meta property="og:site_name" content="Telkom University Brand Guidelines"/> <meta property="og:type" content="website"/> <meta property="og:description" content="Simpledocs"/><!----><!--jot9ci--><meta property="og:title" content="Fakultas Informatika | Telkom University Brand Guidelines"/><!----><title>Fakultas Informatika | Telkom University Brand Guidelines</title>
-		<link href="./_app/immutable/assets/0.DJcq5MpB.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/3.CPkDl7Yf.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/0.B9wnqrsX.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/3.DQ1sOlUs.css" rel="stylesheet">
 </head>
 
 <body class="flex flex-col w-full min-h-screen" data-sveltekit-preload-data="hover">
@@ -27,7 +27,7 @@
 			
 			<script>
 				{
-					__sveltekit_kdxwtx = {
+					__sveltekit_17hp9it = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						assets: "/docs-tel-u"
 					};
@@ -35,8 +35,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.Dt8OR5sR.js"),
-						import("./_app/immutable/entry/app.Crs0ID-P.js")
+						import("./_app/immutable/entry/start.D4TxXLJn.js"),
+						import("./_app/immutable/entry/app.CLOLx57X.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 3],
@@ -47,8 +47,14 @@
 					});
 
 					if ('serviceWorker' in navigator) {
+						const script_url = './service-worker.js';
+						const policy = globalThis?.window?.trustedTypes?.createPolicy(
+							'sveltekit-trusted-url',
+							{ createScriptURL(url) { return url; } }
+						);
+						const sanitised = policy?.createScriptURL(script_url) ?? script_url;
 						addEventListener('load', function () {
-							navigator.serviceWorker.register('./service-worker.js');
+							navigator.serviceWorker.register(sanitised);
 						});
 					}
 				}
